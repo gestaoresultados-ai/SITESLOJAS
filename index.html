@@ -9,12 +9,14 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden; /* 🔥 remove a barra de rolagem */
 }
 
 iframe {
   width: 100%;
-  height: 100%;
+  height: 100vh; /* 🔥 ocupa exatamente a tela */
   border: none;
+  display: block;
 }
 
 /* bloqueio visual do rodapé / opções do Power BI */
